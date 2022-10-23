@@ -27,8 +27,8 @@
         transition: 0.3s;
       }
     }
-    .active {
-      color: red;
+    .active-link {
+      text-decoration-line: revert;
     }
   }
 }

@@ -36,6 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('../../assets/svg/vector.svg') center no-repeat;
     width: 12.2rem;
     height: 8.6rem;
     background-color: #1f2223;
@@ -52,17 +53,21 @@
   }
   &__btn {
     display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 34.3rem;
     height: 5rem;
     background-color: #007aff;
     color: #ffffff;
     border-radius: 0.8rem;
-    align-items: center;
-    justify-content: center;
     font-size: 1.7rem;
     line-height: 2.2rem;
     text-align: center;
     letter-spacing: -0.408px;
     margin-top: 4.3rem;
+    &:hover {
+      transition: all 0.3s;
+      background-color: #59a9fe;
+    }
   }
 }

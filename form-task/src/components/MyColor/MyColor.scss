@@ -1,0 +1,23 @@
+.my-color {
+  &__label {
+    width: 5.4rem;
+    height: 5.4rem;
+    border-radius: 0.5rem;
+    position: relative;
+  }
+  &__delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -0.7rem;
+    left: 4.4rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 0.1rem solid;
+    border-radius: 50%;
+  }
+  &__delete-off {
+    display: none;
+  }
+}

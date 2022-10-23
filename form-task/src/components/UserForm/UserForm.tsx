@@ -115,11 +115,7 @@ export const UserForm: React.FC<IUserFormProps> = ({ setResponseData }) => {
           onDragOver={(event) => dragStartHandler(event)}
           onDrop={(event) => onDropHandler(event)}
         >
-          {previewImg ? (
-            <img src={previewImg} alt="photo" className="form__img" />
-          ) : (
-            <img src="./vector.svg" alt="no-photo" />
-          )}
+          {previewImg && <img src={previewImg} alt="photo" className="form__img" />}
         </label>
       </div>
       <button type="submit" className="form__btn">
