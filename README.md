@@ -1,3 +1,3 @@
 # react-testing-task
 
-Deploy: https://github.com/gremlin654/react-testing-task
+Deploy: https://gremlin654-form-testing-task.netlify.app
