@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { changeColor, deleteColors } from '../../store/redusers/ColorSlice';
+import { IMyColorProps } from '../../types/types';
 import './MyColor.scss';
-
-export interface IMyColorProps {
-  id: string;
-  color: string;
-  index: number;
-}
 
 export const MyColor: React.FC<IMyColorProps> = ({ color, id, index }) => {
   const [isDelete, setIsDelete] = useState<boolean>(false);

@@ -18,3 +18,9 @@ export interface IPostData {
   patronymic: string;
   image: Blob | null;
 }
+
+export interface IMyColorProps {
+  id: string;
+  color: string;
+  index: number;
+}
